@@ -1,2 +1,1 @@
-# zmk_config_zitaotech_keypoint
-zmk configuration for zitaotech keypoint split keyboard
+# Keypoint split keyboard with trackpoint built in
