@@ -16,6 +16,8 @@ KEYPOINT combines a 48-key split keyboard with MX switches with a built-in Track
 
 # Multi device connect
 
+# Output select 
+
 # Keymap updating 
 
 # Firmware
