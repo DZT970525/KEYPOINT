@@ -28,6 +28,13 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 # Change trackpoint dpi on the fly
 
 # How to connect this keyboard with your device [🔼](#contents)
+- Turn on the Bluetooth on your phone
+- Find the device ```KEYPOINT``` and pair with it then you should type with the keyboard
+> [!CAUTION]
+> After you delete the bluetooth profile and if you want to pair with the keyboard with another device when you have already paired with some device before, make sure to enter layer 1 and press the encoder on the left half keyboard to clear the bluetooth profile on the keyboard side. Otherwise there will be error when you want to pair with another device!!! Please use the following steps to delete the bluetooth pairing
+- First delete the bluetooth profile(somewhere it's called forget the device or unpair the device) on your device
+- Enter layer 1 and press the encoder on the left split keyboard 
+- Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
 
 # Multi device connect
 
