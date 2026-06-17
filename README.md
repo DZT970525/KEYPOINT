@@ -29,6 +29,8 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 The keyboard can be set at USB output or Bluetooth output, it can be read on the left display.  
 You can toggle the output by **pressing the right encoder at layer one by default**  
 This output is important when you want to update your keymap via ZMK Studio.  
+> [!NOTE]
+> - The USB output status will only show when the keyboard is connected with a host device through a cable
 
 # Keymap updating 
 
