@@ -25,6 +25,8 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 # Trackpoint and mouse layer
 
+# Change trackpoint dpi on the fly
+
 # How to connect this keyboard with your device [🔼](#contents)
 
 # Multi device connect
