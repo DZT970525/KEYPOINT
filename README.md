@@ -23,7 +23,7 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 # Keymap
 
-# Mouse layer 
+# Trackpoint and mouse layer
 
 # How to connect this keyboard with your device [🔼](#contents)
 
