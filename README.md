@@ -114,4 +114,3 @@ You can find the firmware file on this [page]()
 The weight of one half keyboard is about 280g  
 The total weight of the keyboard is about 560g
 
-# Credits
