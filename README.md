@@ -37,6 +37,17 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
 
 # Multi device connect
+By default the keyboard can be paired with 4 devices at the same time and can be switched between them seamlessly. Here are the steps how to connect with devices:
+1. Assume you have already connected this keyboard with one device
+2. Now enter layer 1 and rotate the encoder on the left half keyboard and the lighted number will show you which bluetooth channel(which device) the keyboard is ready to be connected
+
+Now the keyboard is ready to be paired with another device
+Similarly, you can pair this keyboard with a third and a fourth device.  
+
+4. Once pairing is done, you can switch between the devices the same way.
+
+> [!CAUTION]
+> - The BT_CLEAR keycoode — which is triggered by pressing the encoder on the left half keyboard — is calculated independently for each device. This means that when you trigger BT_CLEAR while connected to the second device, it won’t affect any of the other devices.
 
 # Output select [🔼](#contents)
 The keyboard can be set at USB output or Bluetooth output, it can be read on the left display.  
