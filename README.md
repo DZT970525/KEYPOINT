@@ -79,11 +79,33 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
 Please refer to this [page](https://github.com/DZT970525/zmk-config-KEYPOINT)
 
-# Firmware
+# Build your own firmware
+First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
+0. Register a Github account if you don't have one
+1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
+2. Create a codespace by clicking this icon:
 
+<p align="center">
+<img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" >
+ </p>
+ 
+3. When the codespace is finished setting up, type ```cd zmk ``` in the terminal of the codespace
+4. type ```west init -l app/``` in the terminal
+5. type ```west update``` and wait about 5-10 minutes and the toolchain is finished setting up
+6. copy and paste the ```bbp9981``` [folder](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/ZMK%20source%20code/bbp9981) into the ```app/boards/arm``` folder
+7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
+8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
 # How to reset the keyboard
+There might be a chance that you can't pair the keyboard with your device, you can choose to totally reset the keyboard to make the keyboard pair with your device again. Please follow the steps:
+1. Connect the left half keyboard with your computer with a cable.
+2. Double tap the reset button on the keyboard to make the keyboard into bootloader mode, then a USB disk will be found by your computer called  ``nice!nano``
+3. drag the reset firmware file into the USB disk
+4. After a few seconds the USB disk will disappear and the keyboard will restart
+5. Double tap the reset button again and drag the default(or your own) firmware into the USB disk
+6. After a few seconds the USB disk will disappear and the keyboard will restart and now the left half keyboard is totally reset.
+7. Do the steps above on the right half keyboard and the whole keyboard is reset and you can now connect the keyboard with your device again. `
 
-# Build your own Firmware
+You can find the firmware file on this [page]()
 
 # Others [🔼](#contents) 
 ## Dimensions of the keyboard [🔼](#contents)
