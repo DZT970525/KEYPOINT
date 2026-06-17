@@ -85,6 +85,11 @@ Please refer to this [page](https://github.com/DZT970525/zmk-config-KEYPOINT)
 
 # Build your own Firmware
 
-# Others
+# Others [🔼](#contents) 
+## Dimensions of the keyboard [🔼](#contents)
+
+## Weight [🔼](#contents)
+The weight of one half keyboard is about 280g  
+The total weight of the keyboard is about 560g
 
 # Credits
