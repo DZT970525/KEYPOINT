@@ -77,7 +77,7 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 
 ## Advanced Keymap Updating [🔼](#contents)
 Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
-Please refer to this [page]()
+Please refer to this [page](https://github.com/DZT970525/zmk-config-KEYPOINT)
 
 # Firmware
 
