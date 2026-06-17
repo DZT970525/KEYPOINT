@@ -25,6 +25,8 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 # Mouse layer 
 
+# How to connect this keyboard with your device [🔼](#contents)
+
 # Multi device connect
 
 # Output select [🔼](#contents)
