@@ -26,6 +26,9 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 # Multi device connect
 
 # Output select 
+The keyboard can be set at USB output or Bluetooth output, it can be read on the left display.  
+You can toggle the output by **pressing the right encoder at layer one by default**  
+This output is important when you want to update your keymap via ZMK Studio.  
 
 # Keymap updating 
 
