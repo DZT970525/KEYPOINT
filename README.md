@@ -27,7 +27,7 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 # Multi device connect
 
-# Output select 
+# Output select [🔼](#contents)
 The keyboard can be set at USB output or Bluetooth output, it can be read on the left display.  
 You can toggle the output by **pressing the right encoder at layer one by default**  
 This output is important when you want to update your keymap via ZMK Studio.  
@@ -41,7 +41,18 @@ This output is important when you want to update your keymap via ZMK Studio.
 > [!NOTE]
 > - The USB output status will only show when the keyboard is connected with a host device through a cable
 
-# Keymap updating 
+# Realtime Keymap Updating [🔼](#contents)
+[ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
+
+You can use ZMK Studio with ```Chrome/Edge``` at [https://zmk.studio/](https://zmk.studio/).  
+
+Before you use ZMK Studio, you need to get the keyboard plugged with you computer and set the keyboard at ``USB output mode`` [Please refer to this content](https://github.com/DZT970525/KEYPOINT/edit/main/README.md#output-select-), then you can select the port shown on the ZMK Studio page and then start the keymap updating.  
+
+The picture below shows you how it looks like when the keyboard connects with ZMK Studio successfully.  
+
+## Advanced Keymap Updating [🔼](#contents)
+Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
+Please refer to this [page]()
 
 # Firmware
 
