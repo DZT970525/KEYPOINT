@@ -46,6 +46,9 @@ By default the keyboard can be paired with 4 devices at the same time and can be
 1. Assume you have already connected this keyboard with one device
 2. Now enter layer 1 and rotate the encoder on the left half keyboard and the lighted number will show you which bluetooth channel(which device) the keyboard is ready to be connected
 
+<p align="center">
+<img width="250"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/left_display_number.png"/>
+</p>
 Now the keyboard is ready to be paired with another device
 Similarly, you can pair this keyboard with a third and a fourth device.  
 
