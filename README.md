@@ -29,6 +29,12 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 
 # Trackpoint and mouse layer [🔼](#contents)
+When you put your finger on the trackpoint and move the keyboard will automatically enter mouse layer and will exit to default layer0 when there is no trackpoint move.
+The detailed mouse layer keymap can be found on the picture:
+
+<p align="center">
+<img width="800"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/Mouse_layer.png"/>
+</p>
 
 # Change trackpoint dpi on the fly [🔼](#contents)
 In the default firmware, when Layer 1 is active, these two small buttons can be used to adjust the TrackPoint DPI.  
@@ -92,7 +98,7 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
 Please refer to this [page](https://github.com/DZT970525/zmk-config-KEYPOINT)
 
-# Build your own firmware
+# Build your own firmware [🔼](#contents)
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
 1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)
@@ -112,7 +118,7 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 ```west build -p -b zitaotech_keypoint_left -- -DSHIELD=“left_bbtrackpad_keypoint;lpm_view”``` for the left hand keyboard and zmk will start compiling the firmware
 11. And you can compile the right hand keyboard by using ```west build -p -b zitaotech_keypoint_right -- -DSHIELD=“right_trackpoint_keypoint;lpm_view”```
 12. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
-# How to reset the keyboard
+# How to reset the keyboard [🔼](#contents)
 There might be a chance that you can't pair the keyboard with your device, you can choose to totally reset the keyboard to make the keyboard pair with your device again. Please follow the steps:
 1. Connect the left half keyboard with your computer with a cable.
 2. Double tap the reset button on the keyboard to make the keyboard into bootloader mode, then a USB disk will be found by your computer called  ``nice!nano``
@@ -125,6 +131,15 @@ There might be a chance that you can't pair the keyboard with your device, you c
 Im summery you need to flash the reset firmware and re-flash the normal firmware for both hands and firstly the left keyboard.  
 
 You can find the firmware file on this [page]()
+
+# Deep sleep and power consumption [🔼](#contents)
+If the keyboard remains inactive for 30 minutes, it will automatically enter deep sleep mode to conserve battery power.
+
+Press any key to wake the keyboard. After waking up, it typically takes about 5–10 seconds to re-establish the Bluetooth connection.
+
+The display image remains visible while the keyboard is in deep sleep mode and does not turn off.
+
+On a full charge, the keyboard can typically be used for approximately 10–15 days, depending on usage patterns and settings.
 
 # Others [🔼](#contents) 
 ## Weight [🔼](#contents)
