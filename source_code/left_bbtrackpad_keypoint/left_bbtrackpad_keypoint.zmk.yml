@@ -1,0 +1,8 @@
+file_format: "1"
+id: left_bbtrackpad_keypoint
+name: left_bbtrackpad_keypoint
+type: shield
+url:
+requires:
+features:
+  - mouse
