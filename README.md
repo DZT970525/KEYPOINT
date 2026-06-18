@@ -33,7 +33,7 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 # Change trackpoint dpi on the fly
 
 # How to connect this keyboard with your device [🔼](#contents)
-- Turn on the Bluetooth on your phone
+- Turn on the Bluetooth on your PC or your phone
 - Find the device ```KEYPOINT``` and pair with it then you should type with the keyboard
 > [!CAUTION]
 > After you delete the bluetooth profile and if you want to pair with the keyboard with another device when you have already paired with some device before, make sure to enter layer 1 and press the encoder on the left half keyboard to clear the bluetooth profile on the keyboard side. Otherwise there will be error when you want to pair with another device!!! Please use the following steps to delete the bluetooth pairing
@@ -113,8 +113,6 @@ There might be a chance that you can't pair the keyboard with your device, you c
 You can find the firmware file on this [page]()
 
 # Others [🔼](#contents) 
-## Dimensions of the keyboard [🔼](#contents)
-
 ## Weight [🔼](#contents)
 The weight of one half keyboard is about 280g  
 The total weight of the keyboard is about 560g
