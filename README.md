@@ -23,6 +23,11 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 
 # Keymap
 
+<p align="center">
+<img width="800"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/keypont_keymap.png"/>
+</p>
+
+
 # Trackpoint and mouse layer
 
 # Change trackpoint dpi on the fly
