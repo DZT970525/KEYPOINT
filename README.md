@@ -28,9 +28,14 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 </p>
 
 
-# Trackpoint and mouse layer
+# Trackpoint and mouse layer [🔼](#contents)
 
-# Change trackpoint dpi on the fly
+# Change trackpoint dpi on the fly [🔼](#contents)
+In the default firmware, when Layer 1 is active, these two small buttons can be used to adjust the TrackPoint DPI.  
+The TrackPoint provides 10 DPI levels in total. During dpi adjustment, the LED will indicate you the current DPI level.  
+<p align="center">
+<img width="250"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/change_dpi.png"/>
+</p>
 
 # How to connect this keyboard with your device [🔼](#contents)
 - Turn on the Bluetooth on your PC or your phone
@@ -41,7 +46,7 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 - Enter layer 1 and press the encoder on the left split keyboard 
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
 
-# Multi device connect
+# Multi device connect [🔼](#contents)
 By default the keyboard can be paired with 4 devices at the same time and can be switched between them seamlessly. Here are the steps how to connect with devices:
 1. Assume you have already connected this keyboard with one device
 2. Now enter layer 1 and rotate the encoder on the left half keyboard and the lighted number will show you which bluetooth channel(which device) the keyboard is ready to be connected
@@ -90,19 +95,23 @@ Please refer to this [page](https://github.com/DZT970525/zmk-config-KEYPOINT)
 # Build your own firmware
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
-1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
-2. Create a codespace by clicking this icon:
+1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)
+2. Make sure you select the v0.3 branch  
+3. Create a codespace by clicking this icon:
 
 <p align="center">
-<img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" >
+<img width="744" height="496" alt="image" src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/codespace.png" >
  </p>
  
 3. When the codespace is finished setting up, type ```cd zmk ``` in the terminal of the codespace
 4. type ```west init -l app/``` in the terminal
 5. type ```west update``` and wait about 5-10 minutes and the toolchain is finished setting up
-6. copy and paste the ```bbp9981``` [folder](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/ZMK%20source%20code/bbp9981) into the ```app/boards/arm``` folder
-7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
-8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
+6. copy and paste the ```zitaotech_keypoint``` [folder](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/ZMK%20source%20code/bbp9981) into the ```app/boards/arm``` folder
+7. copy and paste the ```left_bbtrackpad_keypoint``` folder and ```right_trackpoint_keypoint``` folder and ```lpm_view```folder into the ```app/boards/shields```folder
+9. compile the firmware by using ```cd app``` and
+```west build -p -b zitaotech_keypoint_left -- -DSHIELD=“left_bbtrackpad_keypoint;lpm_view”``` for the left hand keyboard and zmk will start compiling the firmware
+11. And you can compile the right hand keyboard by using ```west build -p -b zitaotech_keypoint_right -- -DSHIELD=“right_trackpoint_keypoint;lpm_view”```
+12. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
 # How to reset the keyboard
 There might be a chance that you can't pair the keyboard with your device, you can choose to totally reset the keyboard to make the keyboard pair with your device again. Please follow the steps:
 1. Connect the left half keyboard with your computer with a cable.
@@ -112,6 +121,8 @@ There might be a chance that you can't pair the keyboard with your device, you c
 5. Double tap the reset button again and drag the default(or your own) firmware into the USB disk
 6. After a few seconds the USB disk will disappear and the keyboard will restart and now the left half keyboard is totally reset.
 7. Do the steps above on the right half keyboard and the whole keyboard is reset and you can now connect the keyboard with your device again. `
+
+Im summery you need to flash the reset firmware and re-flash the normal firmware for both hands and firstly the left keyboard.  
 
 You can find the firmware file on this [page]()
 
