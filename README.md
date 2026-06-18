@@ -106,7 +106,7 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 3. When the codespace is finished setting up, type ```cd zmk ``` in the terminal of the codespace
 4. type ```west init -l app/``` in the terminal
 5. type ```west update``` and wait about 5-10 minutes and the toolchain is finished setting up
-6. copy and paste the ```zitaotech_keypoint``` [folder](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/ZMK%20source%20code/bbp9981) into the ```app/boards/arm``` folder
+6. copy and paste the ```zitaotech_keypoint``` [folder](https://github.com/DZT970525/KEYPOINT/tree/main/source_code) into the ```app/boards/arm``` folder
 7. copy and paste the ```left_bbtrackpad_keypoint``` folder and ```right_trackpoint_keypoint``` folder and ```lpm_view```folder into the ```app/boards/shields```folder
 9. compile the firmware by using ```cd app``` and
 ```west build -p -b zitaotech_keypoint_left -- -DSHIELD=“left_bbtrackpad_keypoint;lpm_view”``` for the left hand keyboard and zmk will start compiling the firmware
