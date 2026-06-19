@@ -24,7 +24,7 @@ If you are in China: [Taobao store](https://item.taobao.com/item.htm?abbucket=2&
 # Keymap
 
 <p align="center">
-<img width="800"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/keypoint_keymap.png"/>
+<img width="800"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/keypoint_keymapv0.png"/>
 </p>
 
 
